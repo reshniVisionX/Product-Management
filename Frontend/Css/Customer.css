@@ -1,0 +1,94 @@
+
+.product-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .button-upload {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button-upload:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-scan {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .button-scan:hover {
+    background-color: #1e7e34;
+  }
+
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+
+  .product-image {
+    width: 250px;
+    height: 400px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .product-table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .product-table th, 
+  .product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .product-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .customer {
+   
+    background-color: #f8f9fa; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .backbtn {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin-right: 10px;
+    background-color: #1708ee;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
