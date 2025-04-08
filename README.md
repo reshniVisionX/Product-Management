@@ -78,7 +78,5 @@ Manufacturers can dynamically register products, generate secure QR codes, and e
 | Security     | RSA / ECDSA (Digital Signatures) |
 | ML (optional)| TensorFlow.js / Python (Flask API) |
 
----
 
-## 📂 Project Structure
 
